@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\9613elliotb\Desktop\Desktop Goose v0.21\GooseDesktop.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F7ECCD06-4363-4847-B56A-BEE06E6FC121}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>GooseDesktop</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Easings.cs" />
+    <Compile Include="GooseDesktop\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GooseDesktop\GooseConfig.cs" />
+    <Compile Include="GooseDesktop\MainGame.cs" />
+    <Compile Include="GooseDesktop\Sound.cs" />
+    <Compile Include="GooseDesktop\TheGoose.cs" />
+    <Compile Include="GooseDesktop\FootMark.cs" />
+    <Compile Include="GooseDesktop\HeartParticle.cs" />
+    <Compile Include="GooseDesktop\Program.cs" />
+    <Compile Include="GooseDesktop\BufferedPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GooseDesktop\Properties\Resources.cs" />
+    <Compile Include="GooseDesktop\Properties\Settings.cs" />
+    <Compile Include="SamEngine\Time.cs" />
+    <Compile Include="SamEngine\SamMath.cs" />
+    <Compile Include="SamEngine\Deck.cs" />
+    <Compile Include="SamEngine\Vector2.cs" />
+    <Compile Include="SamEngine\Graphics\SpritesheetGrid.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pat1" />
+    <Resource Include="Pat2" />
+    <Resource Include="Pat3" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GooseDesktop\Form1.resx" />
+    <EmbeddedResource Include="GooseDesktop\Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

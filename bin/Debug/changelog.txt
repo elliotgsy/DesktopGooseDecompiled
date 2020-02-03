@@ -1,0 +1,19 @@
+~~~~~ 0.21 Hotfix ~~~~~
+ - Fixed the infamous "Red X" crash!
+
+~~~~~ NEW IN VERSION 0.2 ~~~~~
+ - UNLIMITED MEMES! Add whatever images you want to the memes folder, and the goose will pull them up!
+ - GIF SUPPORT! Add GIFs to the meme folder and Goose will bring you your infinite video
+ - HACK THE GOOSE! Adjust his aggression and a few other parameters, by opening config.goos in Notepad! More customization to come...
+
+Bugfixes:
+ - Temp fix: No more crashing, on an edge-case donation image load failure, if you move the files around for some reason? (In general, don't move and delete files while the program's running- a file lock safeguard is coming soon so you don't have to worry about it :) )
+
+COMING SOON in v0.3+...:
+ - Customize the goose note messages!
+ - Play a custom jukebox playlist!
+ - Better mod support? Join the discord at https://discord.gg/2d6WcNg and check the #goose-mods channel to see how this develops.
+
+
+~~~~~ VERSION 0.1 ~~~~~
+This is just the base! We're only getting started

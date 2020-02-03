@@ -1,0 +1,9 @@
+C:\Users\9613elliotb\Documents\GooseDesktop\obj\Debug\GooseDesktop.csprojAssemblyReference.cache
+C:\Users\9613elliotb\Documents\GooseDesktop\obj\Debug\GooseDesktop.g.resources
+C:\Users\9613elliotb\Documents\GooseDesktop\obj\Debug\GooseDesktop.Form1.resources
+C:\Users\9613elliotb\Documents\GooseDesktop\obj\Debug\GooseDesktop.csproj.GenerateResource.cache
+C:\Users\9613elliotb\Documents\GooseDesktop\obj\Debug\GooseDesktop.Properties.Resources.resources
+C:\Users\9613elliotb\Documents\GooseDesktop\bin\Debug\GooseDesktop.exe
+C:\Users\9613elliotb\Documents\GooseDesktop\bin\Debug\GooseDesktop.pdb
+C:\Users\9613elliotb\Documents\GooseDesktop\obj\Debug\GooseDesktop.exe
+C:\Users\9613elliotb\Documents\GooseDesktop\obj\Debug\GooseDesktop.pdb
